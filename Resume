@@ -1,0 +1,78 @@
+<html>
+<head>
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <img src="file:///C:/Users/Anju/Pictures/family/WhatsApp%20Image%202023-06-25%20at%2019.06.15.jpg" alt="Profile Image">
+    <h1>Varikula  Anjisubha</h1>
+  </header>
+  
+  <section class="contact">
+    <h2>Contact Information</h2>
+    <ul>
+      <li>Email: anju@gmail.com</li>
+      <li>Phone: +91 9876543210</li>
+    </ul>
+  </section>
+  
+  <section class="resume">
+    <h2>Resume</h2>
+    <h3>Education</h3>
+    <ul>
+      <li>Bachelor's Degree in Electronics</li>
+      <li>Sri Venkateswara Engineering College, 2021-2024</li>
+    </ul>
+    
+    <h3>Skills</h3>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>C Language</li>
+      <li>Python</li>
+    </ul>
+    
+    <h3>Interships</h3>
+    <ul>
+      <li>IOT, Emertxe Company</li>
+      <li>python,Think Champ</li>
+    </ul>
+  </section>
+</body>
+</html>
+
+#css
+body {
+  font-family: Arial,serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 10px;
+  background-color: pink;
+}
+
+header img {
+  width: 100px;
+  border-radius: 30%;
+}
+
+.contact, .resume {
+  margin: 20px;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
